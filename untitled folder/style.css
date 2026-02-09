@@ -1,0 +1,100 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+header {
+    width: 1366px;
+    height: 150px; /* Maximo de 200px, comun entre 50px a 70px */
+    background-color:rgb(234, 96, 96);
+    margin: 0 auto;
+    text-align: center;
+}
+
+header img{
+    height: 95%;
+}
+ 
+nav {
+    width: 1366px;
+    height: 50px; /* Entre 50 o 60 px (comun 50px) */
+    background-color: rgb(0, 0, 0);
+ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+    overflow: hidden;
+    margin: 0 auto;
+}
+ 
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: .5s;
+}
+ 
+nav a:hover {
+    background-color: rgb(52, 93, 95);
+    transform: scale(1.2);
+    box-shadow: 2px 2px 3px rgb(25, 25, 25);
+}
+ 
+main {
+    width: 1366px;
+    height: 2000px;
+    background-color: rgb(234, 96, 96);
+    margin: 0 auto;
+
+    background-image: url(images/textura.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+ 
+.personaje {
+    width: 1300px;
+    height: 400px;
+    
+    margin-left: 33px;
+    margin-top: 80px;
+ 
+    display: inline-block;
+}
+ 
+.foto {
+    width: 400px;
+    height: 400px;
+    /*background-color: black;*/
+    float: left;
+    margin-left: 33px;
+    text-align: center;
+}
+.foto img{
+    height: 100%; /*es un comentario en CSS*/
+}
+ 
+.info {
+    width: 800px;
+    height: 400px;
+    background-color: rgb(234, 96, 96);
+    float: left;
+    margin-left: 33px;
+    padding: 30px;
+}
+ 
+footer {
+    width: 1366px;
+    height: 200px;
+    background-color: black;
+    margin: 0 auto;
+    color: white;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
